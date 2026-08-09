@@ -1,0 +1,44 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# next.js
+.next/
+out/
+build/
+.vercel
+
+# production
+dist/
+
+# local env files (keep .env.example templates committable)
+.env
+.env*.local
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# os files
+.DS_Store
+Thumbs.db
+
+# test coverage
+coverage/
+
+# misc
+*.pem
